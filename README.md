@@ -8,8 +8,9 @@
 # seam(接缝)
 ## object seam(对象接缝)
 cpp/biz/src/seam/CAsyncSslRec
+com/uj/objectseam/*
 ## pre-processing seam(预处理接缝)
 cpp/biz/src/preprocessing_seams
-## link seam(链接接缝)
+## linked seam(连接接缝)
 cpp/biz/src/seam/linked_seam
 
