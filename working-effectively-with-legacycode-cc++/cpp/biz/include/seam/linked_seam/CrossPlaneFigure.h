@@ -9,6 +9,7 @@
 #define CROSSPLANEFIGURE_H_
 
 #include "Graphics.h"
+#include "string.h"
 
 class CrossPlaneFigure {
 private:

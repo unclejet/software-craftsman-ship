@@ -10,4 +10,6 @@
 cpp/biz/src/seam/CAsyncSslRec
 ## pre-processing seam(预处理接缝)
 cpp/biz/src/preprocessing_seams
+## link seam(链接接缝)
+cpp/biz/src/seam/linked_seam
 
