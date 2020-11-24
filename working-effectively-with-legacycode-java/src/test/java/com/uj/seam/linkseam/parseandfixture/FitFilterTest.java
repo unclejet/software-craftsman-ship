@@ -1,8 +1,6 @@
-package com.uj.linkedseam.parseandfixture;
+package com.uj.seam.linkseam.parseandfixture;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * @author ：UncleJet

@@ -1,4 +1,4 @@
-package com.uj.linkedseam.parseandfixture;
+package com.uj.seam.linkseam.parseandfixture;
 
 import fit.Fixture;
 import fit.Parse;
