@@ -1,4 +1,4 @@
-package com.uj.objectseam;
+package com.uj.seam.objectseam;
 
 import org.junit.Test;
 
@@ -19,8 +19,6 @@ public class CustomSpreadSheetTest {
     }
 
     private class FakeCell extends Cell {
-
-
         @Override
         void recalculate() {
             System.out.println("Fake Cell recalculate");

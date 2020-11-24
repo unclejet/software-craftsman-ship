@@ -1,4 +1,4 @@
-package com.uj.objectseam;
+package com.uj.seam.objectseam;
 
 /**
  * Created by jehan on 12/2/2014.
