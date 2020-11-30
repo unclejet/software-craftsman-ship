@@ -8,7 +8,8 @@
 #include "SproutClass/QuarterlyReportTableHeaderProducer.h"
 
 std::string QuarterlyReportTableHeaderProducer::makeTableHeader() {
-	return "<tr><td>Department</td><td>Manager</td><td>Profit</td><td>Expenses</td></tr>";
+    std::string a = std::string("<tr><td>Department</td><td>Manager</td><td>Profit</td><td>Expenses</td></tr>");
+	return a;
 }
 
 

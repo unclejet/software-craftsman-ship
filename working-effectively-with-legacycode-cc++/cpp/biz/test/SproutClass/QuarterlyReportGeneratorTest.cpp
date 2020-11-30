@@ -36,7 +36,7 @@ TEST(QuarterlyReportGeneratorTest, generageReportBody_dbQueryDataBack) {
 			"<html><head><title>Quarterly Report</title></head>"
 					"<body><table>"
 					"<tr><td>Department</td><td>Manager</td><td>Profit</td><td>Expenses</td></tr>"
-					"<tr><td>da1</td><td>m1</td><td>$-687194767</td><td>$-1717986918</td></tr></table></body></html>";
+					"<tr><td>da1</td><td>m1</td><td>$11</td><td>$12</td></tr></table></body></html>";
 	ASSERT_STREQ(expected, actual.c_str());
 	delete fdb;
 }

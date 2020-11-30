@@ -26,5 +26,9 @@ com/uj/seam/linkedseam/
 新生方法可以使用TDD进行驱动
 
 com.uj.sprout.method
+## sprout class(新生类)
+两种情况使用新生类
+- 进行的修改迫使你为某个类添加一个全新的职责
+- 小小的修改却无法将现有的类放入测试夹具
 
 

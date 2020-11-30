@@ -10,7 +10,8 @@
 
 TEST(QuarterlyReportTableHeaderProducerTest, makeTableHeader) {
 	QuarterlyReportTableHeaderProducer headerMaker;
-	const char* actual = headerMaker.makeTableHeader().c_str();
+    const std::string s = headerMaker.makeTableHeader();
+    const char* actual = s.c_str();
 	char* expected = "<tr><td>Department</td><td>Manager</td><td>Profit</td><td>Expenses</td></tr>";
 	ASSERT_STREQ(expected, actual);
 }
