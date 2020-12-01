@@ -13,6 +13,8 @@ add_executable(LegacyCode_Tests_run
         ../biz/test/seam/CAsyncSslRecTest.cpp
         ../biz/test/seam/preprocessing_seams/account_test.cpp
         ../biz/test/seam/linked_seam/CrossPlaneFigureTest.cpp
+        ../biz/test/SproutClass/QuarterlyReportGeneratorTest.cpp
+        ../biz/test/SproutClass/QuarterlyReportTableHeaderProducerTest.cpp
         )
 
 target_link_libraries(LegacyCode_Tests_run
