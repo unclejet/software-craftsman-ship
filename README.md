@@ -26,5 +26,6 @@ com/uj/seam/linkedseam/
 新生方法可以使用TDD进行驱动
 
 com.uj.sprout.method
-
-
+## wrap method(包装方法)
+当需要添加行为的时候，可以考虑不那么纠缠的方式
+com/uj/wrap/method
