@@ -34,6 +34,16 @@ com.uj.sprout.method
 cpp/biz/src/SproutClass
 ## wrap method(包装方法)
 当需要添加行为的时候，可以考虑不那么纠缠的方式
-com/uj/wrap/method
 
+com/uj/wrap/method
+## wrap class(包装类)
+- style1 extract implementor or extract interface
+
+com/uj/wrap.classes.s1/LoggingEmployee
+- style2 decorator
+
+com/uj/wrap.classes.s2/StepNotifyingController
+- style3 use another class to wrap
+
+com/uj/wrap.classes.s3/LoggingPayDispatcher
 
