@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  */
 public class MailForwarderTest {
     @Test
-    public void getFromInForwordMessageIsCorrect() throws Exception {
+    public void getFromInForwardMessageIsCorrect() throws Exception {
         MailForwarder forwarder = new MailForwarder();
         Message expectedMessage = forwarder.forwardMessage(new FakeMessage(null));
         assertEquals("abc@" + forwarder.getDomain(), expectedMessage.getFrom()[0].toString());

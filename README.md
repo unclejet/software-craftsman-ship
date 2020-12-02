@@ -47,3 +47,7 @@ com/uj/wrap.classes.s2/StepNotifyingController
 
 com/uj/wrap.classes.s3/LoggingPayDispatcher
 
+## Programming by Difference(差异化编程)
+- 使用新的子类或者接口实现类来实现新的需求改动
+
+com/uj/programmmingg.by.difference
