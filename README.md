@@ -51,3 +51,9 @@ com/uj/wrap.classes.s3/LoggingPayDispatcher
 - 使用新的子类或者接口实现类来实现新的需求改动
 
 com/uj/programmmingg.by.difference
+
+# I Can't Get This Class into a Test Harness
+## The Case of the Irritating Parameter(恼人的参数)
+- Pass Null(传递空值)
+- Extract Interface(提取接口)
+-  Subclass and Override Method(创建子类并重写方法)
