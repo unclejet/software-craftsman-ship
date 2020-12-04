@@ -50,10 +50,15 @@ com/uj/wrap.classes.s3/LoggingPayDispatcher
 ## Programming by Difference(差异化编程)
 - 使用新的子类或者接口实现类来实现新的需求改动
 
-com/uj/programmmingg.by.difference
+com/uj/programming.by.difference
 
-# I Can't Get This Class into a Test Harness
+# I Can't Get This Class into a Test Harness(无法把类放到测试用具中)
 ## The Case of the Irritating Parameter(恼人的参数)
 - Pass Null(传递空值)
 - Extract Interface(提取接口)
 -  Subclass and Override Method(创建子类并重写方法)
+## The Case of the Hidden Dependency(具有隐藏依赖的情况)
+- Parameterize Constructor(参数化构造器)
+- Extract and Override Getter(提取并重写getter方法)
+- Extract and Override Factory Method(提取并重写工厂方法)
+- Supersede Instance Variable(取代实例变量)
