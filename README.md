@@ -82,3 +82,9 @@ com/uj/resetSingleton
 -  Extract Implementer
 ## The Case of the Aliased Parameter(别名参数)
 - Subclass and Override Method 
+
+# I Can't Run This Method in a Test Harness(无法在测试用具中运行方法)
+- Expose Static Method
+- Break Out Method Object
+## The Case of the Hidden Method
+- this is for how to test private method.
