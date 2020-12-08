@@ -62,3 +62,23 @@ com/uj/programming.by.difference
 - Extract and Override Getter(提取并重写getter方法)
 - Extract and Override Factory Method(提取并重写工厂方法)
 - Supersede Instance Variable(取代实例变量)
+## The Case of the Construction Blob(構建blob的情況)
+- 参数太多就不好使用参数化构造器
+- 在构造函数中可以使用Extract and Override Factory Method
+-  Supersede Instance Variable(就是setter)，此方法不推荐使用，除非没有别的办法
+## The Case of the Irritating Global Dependency(恼人的全局依赖)
+单例模式就是一个明显的全局依赖
+- Parameterize Constructor 
+- Parameterize Method 
+-  Extract and Override Call
+-  Subclass and Override Method
+-  Introduce Static Setter 
+- Extract Interface
+
+com/uj/resetSingleton
+## The Case of the Onion Parameter(洋葱皮参数)
+- Pass Null 
+-  Extract Interface 
+-  Extract Implementer
+## The Case of the Aliased Parameter(别名参数)
+- Subclass and Override Method 
