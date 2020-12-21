@@ -88,3 +88,27 @@ com/uj/resetSingleton
 - Break Out Method Object
 ## The Case of the Hidden Method
 - this is for how to test private method.
+
+# I Need to Make a Change. What Methods Should I Test?(我需要修改代码，应该测试哪些方法？)
+-  characterization tests(鉴定测试)
+- effect sketches(影响草图)
+
+# I Need to Make Many Changes in One Area. Do I Have to Break Dependencies for All the Classes Involved?(我需要在一处地方做多个变更，需要为所有涉及的类打破依赖关系吗)
+- interception point(拦截点)
+- pinch point(夹点) 后面夹了一大堆，是影响草图变窄的地方，是有效的测试点，一次变更可能会有多个夹点；如果夹点太多，就要考虑是不是一次做了多个变更点；如果你根本无法找到夹点，就试着为单独的变更尽可能近的地方编写测试
+
+# I Need to Make a Change, but I Don't Know What Tests to Write(我需要修改代码，但不知道要编写哪些测试)
+- Characterization Tests(鉴定测试) 自动化测试不是用来寻找缺陷的，而是遵守需要保持的行为。保持行为不变的测试叫做鉴定测试(已有代码的行为可能有缺陷，但是目前只需要把行为规约出来即可)
+
+# I Don't Understand the Code Well Enough to Change It(对代码理解不够，所以无法修改)
+- 做笔记，画圆圈和线的草图
+- 把长的方法打印出来，进行标记，分组，理解变更的影响（一些变量的标注）
+- 临时重构，理解完就删掉，不用写单元测试
+
+# My Test Code Is in the Way
+- XXXTest ut class
+- FakeXXX 协作程序模拟类
+- TestingXXX 测试子类
+
+# Dependency-Breaking Techniques
+- Adapt Parameter
