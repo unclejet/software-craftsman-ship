@@ -3,7 +3,8 @@ project(biz)
 
 set(CMAKE_CXX_STANDARD 14)
 
-FILE(GLOB SRC_LIST_CPP src/SproutClass/*.cpp)
+FILE(GLOB SRC_LIST_CPP src/SproutClass/*.cpp
+        src/EncapsulateGlobalReferences/*.cpp)
 FILE(GLOB SRC_LIST_C src/seam/preprocessing_seams/*.c)
 
 set(SOURCE_FILES

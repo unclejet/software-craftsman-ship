@@ -15,6 +15,8 @@ add_executable(LegacyCode_Tests_run
         ../biz/test/seam/linked_seam/CrossPlaneFigureTest.cpp
         ../biz/test/SproutClass/QuarterlyReportGeneratorTest.cpp
         ../biz/test/SproutClass/QuarterlyReportTableHeaderProducerTest.cpp
+        ../biz/test/EncapsulateGlobalReferences/AGGControllerTest.cpp
+        ../biz/test/EncapsulateGlobalReferences/ColumnModelTest.cpp
         )
 
 target_link_libraries(LegacyCode_Tests_run
