@@ -19,6 +19,7 @@ add_executable(LegacyCode_Tests_run
         ../biz/test/EncapsulateGlobalReferences/ColumnModelTest.cpp
         ../biz/test/ReplaceFunctionWithFunctionPointer/function_pointer_sample_test.cpp
         ../biz/test/ReplaceFunctionWithFunctionPointer/ReplaceFunctionWithFunctionPointerTest.cpp
+        ../biz/test/TemplateRedefinition/TemplateRedefinitionTest.cpp
         )
 
 target_link_libraries(LegacyCode_Tests_run
