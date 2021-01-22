@@ -5,7 +5,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 FILE(GLOB SRC_LIST_CPP src/SproutClass/*.cpp
         src/EncapsulateGlobalReferences/*.cpp)
-FILE(GLOB SRC_LIST_C src/seam/preprocessing_seams/*.c)
+FILE(GLOB SRC_LIST_C src/seam/preprocessing_seams/*.c
+        src/ReplaceFunctionWithFunctionPointer/*.c)
 
 set(SOURCE_FILES
         src/seam/CAsyncSslRec.cpp

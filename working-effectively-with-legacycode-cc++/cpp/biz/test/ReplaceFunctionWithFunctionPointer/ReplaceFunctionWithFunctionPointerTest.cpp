@@ -22,7 +22,7 @@ struct receive_record* testing_db_retrieve(struct time_stamp search_time) {
 	return 0;
 }
 
-void initEnviroment() {
+void initEnvironment() {
 	db_store = testing_db_store;
 	db_retrieve = testing_db_retrieve;
 }
@@ -33,7 +33,7 @@ TEST(ReplaceFunctionWithFunctionPointerTest, test_fake_db_retrieve_store) {
 	struct time_stamp ts;
 	ts.time = 100;
 
-	initEnviroment();
+	initEnvironment();
 
 	db_store(&rr, ts);
 	db_retrieve(ts);
