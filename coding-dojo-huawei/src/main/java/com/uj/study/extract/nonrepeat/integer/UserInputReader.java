@@ -18,16 +18,31 @@ public class UserInputReader {
     }
 
     public int readInteger() {
-        boolean isInteger = false;
-        int result = 0;
-        while (!isInteger) {
-            try {
-                result = Integer.parseInt(lineReader.readLine());
-                isInteger = true;
-            } catch (NumberFormatException e) {
-                System.out.println("please input a integer:");
-            }
+        String inputStr = lineReader.readLine();
+        while (!isValidInput(inputStr)) {
+            System.out.println("please input a integer not end with 0:");
+            inputStr = lineReader.readLine();
         }
-        return result;
+        return Integer.parseInt(inputStr);
     }
+
+    private boolean isValidInput(String inputStr) {
+        return isInteger(inputStr) && !isZeroEnd(inputStr) ? true : false;
+    }
+
+    private boolean isZeroEnd(String inputStr) {
+        return inputStr.endsWith("0") ? true : false;
+    }
+
+    private boolean isInteger(String inputStr) {
+        try {
+            Integer.parseInt(inputStr);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+
+
+
 }

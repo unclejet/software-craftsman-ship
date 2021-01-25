@@ -47,4 +47,10 @@ public class UserInputReaderTest {
         assertThat(userInputReader.readInteger(), is(Integer.MAX_VALUE));
         assertThat(userInputReader.readInteger(), is(Integer.MIN_VALUE));
     }
+
+    @Test
+    void lastInputNumberIsNot0() {
+        lineReaderStub.simulateUserInputs("10", "1");
+        assertThat(userInputReader.readInteger(), is(1));
+    }
 }
