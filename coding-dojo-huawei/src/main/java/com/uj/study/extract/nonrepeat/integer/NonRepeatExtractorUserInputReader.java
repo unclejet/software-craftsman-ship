@@ -1,6 +1,7 @@
 package com.uj.study.extract.nonrepeat.integer;
 
 import com.uj.study.common.input.LineReader;
+import com.uj.study.common.input.UserInputReader;
 
 /**
  * @author ：unclejet
@@ -9,12 +10,10 @@ import com.uj.study.common.input.LineReader;
  * @modified By：
  * @version:
  */
-public class UserInputReader {
-    private LineReader lineReader;
+public class NonRepeatExtractorUserInputReader extends UserInputReader {
 
-    public UserInputReader(LineReader lineReader) {
-        this.lineReader = lineReader;
-
+    public NonRepeatExtractorUserInputReader(LineReader lineReader) {
+        super(lineReader);
     }
 
     public int readInteger() {
@@ -33,16 +32,4 @@ public class UserInputReader {
     private boolean isZeroEnd(String inputStr) {
         return inputStr.endsWith("0") ? true : false;
     }
-
-    private boolean isInteger(String inputStr) {
-        try {
-            Integer.parseInt(inputStr);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
-        }
-    }
-
-
-
 }
