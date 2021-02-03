@@ -37,7 +37,20 @@ JDK 11 gradle 6.1 junit 5.5.2
 - 判断是否是数字
 - 字符串反转
   
-## 字符串反转
+## 字符串反转(revert_string)
 - 小写字母
 - 字符串反转
+
+## 句子逆序(revert_sentence)
+- 正则表达式：句子，单词以空格分隔
+- split string -> string[] 将句子按照空格分割成单词数组
+- revert string[]
+    - for loop
+    - stream
+    - guava and apache common
+- string[] -> string 
+    - Arrays.toString(intArray);
+    - list stream to string
+    - list to string: StringUtils.join(list, " ")
+    - guava and apache common
   
