@@ -27,7 +27,7 @@ JDK 11 gradle 6.1 junit 5.5.2
 ## combine.table.record
 - Collectors.groupingBy
 - Collectors.summingInt 
-- sorted(Comparator.comparingInt
+- sorted(Comparator.comparingInt)
 
 ## count_char_numbers
 - 正则表达式： ASCII字符
@@ -53,4 +53,8 @@ JDK 11 gradle 6.1 junit 5.5.2
     - list stream to string
     - list to string: StringUtils.join(list, " ")
     - guava and apache common
-  
+
+## sort string lines
+- test list equals
+- sort
+- array as list
