@@ -58,3 +58,8 @@ JDK 11 gradle 6.1 junit 5.5.2
 - test list equals
 - sort
 - array as list
+
+## 求int型数据在内存中存储时1的个数(count 1 in binary number)
+- count special char in a string
+- decimal to binary
+- input an integer
